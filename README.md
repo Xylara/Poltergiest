@@ -1,8 +1,5 @@
-# Building 
-run ```node index.js``` 
+# Init 
+```npm i```
 
-# Run (development)
+# Run
 run ``` npm run start ```
-
-# Run (prod)
-run ``` node index.js ```
