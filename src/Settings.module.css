@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+.Navbar {
+    position: absolute;
+    left: 0; 
+    top: 0;
+    height: 100vh;
+    width: 20vw;
+    background-color: var(--notcontrastingcolordark);
+}
+.Navbar * {
+    font-family: "Be Veitnam Pro", sans-serif;
+}
+.Navbar_btn {
+   font-size: 1.5rem !important;
+   background-color: transparent; 
+   border: none;
+   color: var(--contrastcolor);
+   width: 15vw;
+   height: 10vh;
+   border-radius: 1rem;
+}
+.Navbar_btn:hover  {
+    background-color: var(--notcontrastingcolor)
+}
+
+
+.Navbar_general {
+    text-decoration: none;
+    color: white;
+    margin-top: 5vh;
+}
+
+.Navbar_connection {
+    text-decoration: none;
+    margin: 10vh;
+    color: white;
+}
+
+.Navbar_connection_img {
+    fill: var(--contrastcolor);
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.settingsBody {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    width: 80vw;
+}
+

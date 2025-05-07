@@ -1,0 +1,11 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+:root { /*totaly not yoinked from firefox*/
+    --bgcolor: rgb(43,42,51);
+    --contrastcolor: #eee;
+    --notcontrastingcolor: rgb(66,65,77);
+    --notcontrastingcolordark: rgb(35, 34, 43);
+}
