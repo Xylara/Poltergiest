@@ -50,3 +50,12 @@
     width: 80vw;
 }
 
+.select {
+    background-color: rgb(57, 51, 60);
+    border: none; 
+    text-align: center;
+    color: #eee;
+    border-radius: 0.5rem;
+    width: 10vw;
+    height: 5vh;
+}

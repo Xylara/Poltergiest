@@ -36,14 +36,14 @@ function Settings() {
         <div id="con" class={global.settingsList}>
             <div id="backendSettings">
                 <h2>Backend Settings</h2>
-                <select value={pBackend()} onChange={savePBackend}>
+                <select value={pBackend()} onChange={savePBackend} class={styles.select}>
                     <option value="Uv">Ultraviolet</option>
                     <option value="Scram">Scramjet</option>
                 </select>
             </div>
             <div id="wispServer">
                 <h2>Wisp settings</h2>
-                <select value={server()} onChange={saveServer}>
+                <select value={server()} onChange={saveServer} class={styles.select}>
                     <option value="local">Default server</option>
                     <option value="anura">Anura (wss://anura.pro)</option>
                 </select>
