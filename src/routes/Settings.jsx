@@ -35,17 +35,17 @@ function Settings() {
     const openCon = () => setsbCon(
         <div id="con" class={global.settingsList}>
             <div id="backendSettings">
-                <h2>Backend Settings</h2>
+                <h2>Backend Settings [Coming soon]</h2>
                 <select value={pBackend()} onChange={savePBackend} class={styles.select}>
                     <option value="Uv">Ultraviolet</option>
                     <option value="Scram">Scramjet</option>
                 </select>
             </div>
             <div id="wispServer">
-                <h2>Wisp settings</h2>
+                <h2>Wisp settings [Coming soon]</h2>
                 <select value={server()} onChange={saveServer} class={styles.select}>
                     <option value="local">Default server</option>
-                    <option value="anura">Anura (wss://anura.pro)</option>
+                    <option value="anura">Anura (wss://anura.pro) </option>
                 </select>
             </div>
         </div>
@@ -65,7 +65,7 @@ function Settings() {
                         type="checkbox" 
                         checked={jsEnabled()} 
                         onChange={saveJsEnabled} 
-                    /> Disable Javascript </h2>
+                    /> Disable Javascript [Coming soon]</h2>
             </div>
         </div>
     );
